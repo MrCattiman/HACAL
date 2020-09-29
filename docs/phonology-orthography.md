@@ -46,7 +46,11 @@ Voiced variations of the same consonants, such as /b/ in place of /p/ are also a
 Duplicate vowels, or triphthongs should be interrupted by /ʔ/ each time the length of a long vowel is met.
 
 Examples (Without the consonant byte):
+
 0x555 /aːʔaːʔaː/
+
 0x1111 /aʔaʔaʔa/
+
 0x123 /aeʔi/
+
 0x523 /aːeʔi/
