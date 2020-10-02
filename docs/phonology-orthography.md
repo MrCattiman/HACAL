@@ -45,7 +45,7 @@ Voiced variations of the same consonants, such as /b/ in place of /p/ are also a
 #Misc.
 Duplicate vowels, or triphthongs should be interrupted by /ʔ/ each time the length of a long vowel is met.
 
-Examples (Without the consonant byte):
+Examples (Without the consonant bits):
 
 0x555 /aːʔaːʔaː/
 
