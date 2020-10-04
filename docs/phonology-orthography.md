@@ -8,7 +8,7 @@ In HACAL, each consonant and vowel is designated a number from 0 to 15. 0 as a c
 
 ## Stops
 Hex | Latin   | Sound
---- | ------- | ------------------------------------------------------
+--- | ------- | ----------------------------------------------------
 1   | P       | /p/
 2   | T       | /t/
 3   | K       | /k/
@@ -17,7 +17,7 @@ Hex | Latin   | Sound
 6   | F       | /f/
 7   | L       | /l/
 8   | J       | /j/
-9   | R       | (Rhotic trill, tap, or similar sound, or uvular trill)
+9   | R       | Rhotic trill, tap, or similar sound, or uvular trill
 a   | N       | /n/
 b   | M       | /m/
 c   | G       | /ŋ/ or /ɴ/
