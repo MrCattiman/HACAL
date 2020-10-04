@@ -7,21 +7,23 @@ In HACAL, each consonant and vowel is designated a number from 0 to 15. 0 as a c
 	- Optionally /ə/
 
 ## Stops
-- 1 P | /p/
-- 2 T | /t/
-- 3 K | /k/
-- 4 S | /s/
-- 5 C | /ʃ/
-- 6 F | /f/
-- 7 L | /l/
-- 8 J | /j/
-- 9 R | (Rhotic trill, tap, or similar sound, or uvular trill)
-- a N | /n/
-- b M | /m/
-- c G | /ŋ/ or /ɴ/
-- d H | /x/ or /h/
-- e X | /θ/
-- f Tc or Z | /ts/ or /tʃ/
+Hex | Latin   | Sound
+--- | ------- | ------------------------------------------------------
+1   | P       | /p/
+2   | T       | /t/
+3   | K       | /k/
+4   | S       | /s/
+5   | C       | /ʃ/
+6   | F       | /f/
+7   | L       | /l/
+8   | J       | /j/
+9   | R       | (Rhotic trill, tap, or similar sound, or uvular trill)
+a   | N       | /n/
+b   | M       | /m/
+c   | G       | /ŋ/ or /ɴ/
+d   | H       | /x/ or /h/
+e   | X       | /θ/
+f   | Tc or Z | /ts/ or /tʃ/
 
 Voiced variations of the same consonants, such as /b/ in place of /p/ are also accepted, ones that are already voiced do not have legal unvoiced counterparts.
 
