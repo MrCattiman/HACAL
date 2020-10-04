@@ -28,21 +28,23 @@ f   | Tc or Z | /ts/ or /tʃ/
 Voiced variations of the same consonants, such as /b/ in place of /p/ are also accepted, ones that are already voiced do not have legal unvoiced counterparts.
 
 ## Vowels
-- 1 A | /a/
-- 2 E | /e/
-- 3 I | /i/
-- 4 U | /u/
-- 5 Aa | /aː/
-- 6 Ee | /eː/
-- 7 Ii | /iː/
-- 8 Uu | /uː/
-- 9 A, or Ą | /ã/ or /ẽ/
-- a U, or Ų | /ĩ/ or /ũ/
-- b Aa, or A; or Ąą | /ãː/ or /ẽː/
-- c Uu, or U; or Ųų | /ĩː/ or /ũː/
-- d V | /ø/
-- e Vv | /øː/
-- f V, or V̨ | /ø̃/
+Hex | Latin           | Sound
+--- | --------------- | ------------
+1   | A               | /a/
+2   | E               | /e/
+3   | I               | /i/
+4   | U               | /u/
+5   | Aa              | /aː/
+6   | Ee              | /eː/
+7   | Ii              | /iː/
+8   | Uu              | /uː/
+9   | A, or Ą         | /ã/ or /ẽ/
+a   | U, or Ų         | /ĩ/ or /ũ/
+b   | Aa, or A; or Ąą | /ãː/ or /ẽː/
+c   | Uu, or U; or Ųų | /ĩː/ or /ũː/
+d   | V               | /ø/
+e   | Vv              | /øː/
+f   | V,              | /ø̃/
 
 # Misc.
 Duplicate vowels, or triphthongs should be interrupted by /ʔ/ each time the length of a long vowel is met.
