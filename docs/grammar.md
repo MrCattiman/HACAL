@@ -20,6 +20,8 @@ There are few distinct word classes in HACAL, the letter in parentheses is short
   - Adds context to a conversation, or defines a word to be remembered.
 - Coin
   - A word defined in HACAL using a contextual word, can never be a core word.
+- Pronoun
+  - A word that references the instance of another word that has been used previously.
 
 Words in HACAL can be described as nouns, intransitive verbs, and transitive verbs, depending on how many values are added or removed from the stack. A noun would add a value to the stack and not require any values, an intransitive verb would add a value to the stack and also require a value, and a transitive verb would add a value to the stack and also require multiple values.
 
@@ -41,9 +43,7 @@ Every sentence in HACAL is indicative and tense-agnostic by default.
 The following moods exist in HACAL:
 - Realis (Not a separate mood)
   - Indicative
-    - Energetic (Expressed as a subtype of indicative)
   - Evidential
-    - Sensory (Expressed as a subtype of evidential)
 - Irrealis (Not a separate mood)
   - Deontic (Not a separate mood)
     - Commisive
@@ -51,14 +51,20 @@ The following moods exist in HACAL:
     - Volitive
   - Epistemic
     - Interrogative
-    - Assumptive (Expressed as a subtype of epistemic)
-      - Speculative (Expressed as a subtype of assumptive)
-    - Deductive (Expressed as a subtype of epistemic)
-    - Potential (Expressed as a combination of assumptive and deductive)
-  - Conditional (Expressed as a future-tense from the perspective of the past [A past tense word followed by a future tense word])
+    - Assumptive
+      - Speculative
+    - Deductive
+    - Potential
 
 The following tenses exist in HACAL:
 - Past
 - Present
 - Future
 - Tense-agnostic 
+
+Please note that, because there is no distinction between nouns and verbs, any word that does not represent a number may have a tense.
+
+##The targets of pronouns
+
+###The topic and comment
+Topic and comment pronouns reference another word that was specifically marked as being a topic or comment.
