@@ -64,7 +64,11 @@ The following tenses exist in HACAL:
 
 Please note that, because there is no distinction between nouns and verbs, any word that does not represent a number may have a tense.
 
-##The targets of pronouns
+## Pronouns
+In HACAL, there are definite pronouns for the 1st person, the 2nd person, the topic, and the comment. Topic and comment pronouns reference another word that was specifically marked as being a topic or comment. There are equivalent and associative forms of the 1st person and 2nd person pronouns, and there are hard and soft forms of the topic and comment pronouns.
 
-###The topic and comment
-Topic and comment pronouns reference another word that was specifically marked as being a topic or comment.
+The equivalent pronouns for the 1st person and the 2nd person, when made plural, refer to mostly indistinguishable instances of the 1st person/2nd person, as well as the 1st person/2nd person themselves. The associative pronouns for the 1st person and 2nd person, when made plural, refer to the 1st person/2nd person and things associated with them.
+
+Soft topic/comment pronouns require a word and refer to a word of the same kind that was marked as a topic/comment. Hard topic/comment pronouns simply refer to the previous word that was marked as a topic/comment.
+
+There is also a generic indefinite pronoun, which will be referred to as the symbol.
