@@ -8,7 +8,19 @@ Hex    | Latin      | Stack effect      | English definition                    
 0406   | Uee        | ( w# -- w )       | w# or w# or w#                                                                         | Simple numeric
 04a0   | Un         | ( w -- )          | Forget a word                                                                          | Stack word
 04a6   | Unee       | ( w# -- )         | Forget multiple words                                                                  | Stack numeric
+12     | Pe         | ( w1 w2 -- w )    | The w1 property of w2                                                                  | Simple word
 13     | Pi         | ( w1 w2 -- w )    | w1 is of the property w2                                                               | Simple word
+43     | Si         | ( w1 w2 -- w )    | w1 is w2                                                                               | Simple word
+46     | See        | ( w1 w2 -- w )    | w1 is related to w2                                                                    | Simple word
+47     | Sii        | ( w -- w )        | Is mostly true/existant                                                                | Simple word
+49     | Sa,        | ( w1 w2 -- w )    | w1 controls w2                                                                         | Simple word
+4a     | Su,        | ( w1 w2 -- w )    | w1 contains w2                                                                         | Simple word
+51     | Ca         | ( -- w )          | Thought / Instance of knowledge                                                        | Simple word
+52     | Ce         | ( -- w )          | Question                                                                               | Simple word
+53     | Ci         | ( -- w )          | Demand / Wish                                                                          | Simple word
+54     | Cu         | ( -- w )          | Event / Action                                                                         | Simple word
+63     | Fi         | ( w1 w2 -- w )    | If w1 then w2                                                                          | Simple word
+67     | Fii        | ( w1 w2 w3 -- w ) | If w1 then w2, otherwise w3                                                            | Simple word
 45     | Saa        | ( w n -- w )      | Apply a number to a word                                                               | Number
 06     | Ee         | ( -- n )          | 0 / Positive numeric initiator                                                         | Number (Initiator)
 07     | Ii         | ( -- n )          | -0 / Negative numeric initiator                                                        | Number (Initiator)
@@ -38,6 +50,8 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 0721   | Iita       | ( n1 n2 -- n )    | n1 divided by n2                                                                       | Number
 7f21   | Lv,ta      | ( n1 n2 -- n )    | n1 to the power of n2                                                                  | Number
 077f21 | Iilv,ta    | ( n1 n2 -- n )    | The n2 root of n1                                                                      | Number
+0643   | Eesi       | ( w1 w2 -- w )    | n1 is greater than n2 in value                                                         | Simple word
+0743   | Iisi       | ( w1 w2 -- w )    | n1 is less than n2 in value                                                            | Simple word
 b1     | Ma         | ( w -- w )        | Apply the indicative mood / Express that w is true                                     | Simple word
 b5     | Maa        | ( w -- w )        | Apply the evidential mood / Express that w is evidently existant/true                  | Simple word
 b2     | Me         | ( w -- w )        | Apply the commisive mood / Promise w                                                   | Simple word
@@ -56,4 +70,4 @@ a7     | Nii        | ( -- w )          | Associative 2st person pronoun        
 92     | Re         | ( -- w )          | Hard comment pronoun                                                                   | Pronoun
 a1     | Na         | ( w -- w )        | Soft topic pronoun                                                                     | Pronoun
 a2     | Ne         | ( w -- w )        | Soft comment pronoun                                                                   | Pronoun
-34     | Ku         | ( -- w )          | Generic indefinite pronoun                                                             | Pronoun
+34     | Ku         | ( -- w )          | Symbol (Generic indefinite pronoun)                                                    | Pronoun
