@@ -36,8 +36,8 @@ Voiced variations of the same consonants, such as /b/ in place of /p/ are also a
 - 8 Uu | /uː/
 - 9 A, or Ą | /ã/ or /ẽ/
 - a U, or Ų | /ĩ/ or /ũ/
-- b Aa; or Ąą | /ãː/ or /ẽː/
-- c Uu; or Ųų | /ĩː/ or /ũː/
+- b Aa, or A; or Ąą | /ãː/ or /ẽː/
+- c Uu, or U; or Ųų | /ĩː/ or /ũː/
 - d V | /ø/
 - e Vv | /øː/
 - f V, or V̨ | /ø̃/
