@@ -62,7 +62,7 @@ The following tenses exist in HACAL:
 - Future
 - Tense-agnostic 
 
-Please note that, because there is no distinction between nouns and verbs, any word that does not represent a number may have a tense.
+Please note that, because there is no distinction between nouns and verbs, any word may have a tense and mood. The meaning of a noun without a verb in HACAL is "(a) [noun] is (true)"
 
 ## Pronouns
 In HACAL, there are definite pronouns for the 1st person, the 2nd person, the topic, and the comment. Topic and comment pronouns reference another word that was specifically marked as being a topic or comment. There are equivalent and associative forms of the 1st person and 2nd person pronouns, and there are hard and soft forms of the topic and comment pronouns.
