@@ -38,7 +38,7 @@ An example of a definition:
 Please note that this is not the real definition of "Pa", and is just an example of a definition.
 
 ## The meanings of sentences
-Every sentence in HACAL is indicative and tense-agnostic by default.
+Every word in HACAL is singular, indicative, and tense-neutral by default.
 
 The following moods exist in HACAL:
 - Realis (Not a separate mood)
@@ -60,9 +60,9 @@ The following tenses exist in HACAL:
 - Past
 - Present
 - Future
-- Tense-agnostic 
+- Neutral 
 
-Please note that, because there is no distinction between nouns and verbs, any word may have a tense and mood. The meaning of a noun without a verb in HACAL is "(a) [noun] is (true)"
+Please note that, because there is no distinction between nouns and verbs, any word may have a tense and mood. Also, the meaning of a noun without a verb in HACAL is "(a) [noun] is (true)".
 
 ## Pronouns
 In HACAL, there are definite pronouns for the 1st person, the 2nd person, the topic, and the comment. Topic and comment pronouns reference another word that was specifically marked as being a topic or comment. There are equivalent and associative forms of the 1st person and 2nd person pronouns, and there are hard and soft forms of the topic and comment pronouns.
