@@ -37,6 +37,8 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 0406   | Uee        | ( w# -- w )       | w# or w# or w#                                                                         | Simple numeric
 04a0   | Un         | ( w -- )          | Forget a word                                                                          | Stack word
 04a6   | Unee       | ( w# -- )         | Forget multiple words                                                                  | Stack numeric
+06c3   | Eegi       | ( -- w )          | Positive response                                                                      | Simple word
+07c3   | Iigi       | ( -- w )          | Negative response                                                                      | Simple word 
 12     | Pe         | ( w1 w2 -- w )    | The w1 property of w2                                                                  | Simple word
 13     | Pi         | ( w1 w2 -- w )    | w1 has the property w2                                                                 | Simple word
 14     | Pu         | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
@@ -45,6 +47,7 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 31     | Ka         | ( w -- w )        | Apply the interrogative mood / Question the existence/truth of w                       | Simple word
 32     | Ke         | ( w -- w )        | Apply the deductive mood / Express that w has been deductively proven to exist/be true | Simple word
 33     | Ki         | ( w -- w )        | Apply the potential mood / Express that w may exist/be true                            | Simple word
+34     | Ku         | ( -- w )          | Symbol (Generic indefinite pronoun)                                                    | Pronoun
 43     | Si         | ( w1 w2 -- w )    | w1 is the same as w2                                                                   | Simple word
 44     | Su         | ( -- w )          | Number / amount / point                                                                | Simple word
 45     | Saa        | ( w1 w2 -- w )    | Apply a number to a word / Pluralize                                                   | Simple word
@@ -74,7 +77,6 @@ a1     | Na         | ( w -- w )        | Soft topic pronoun                    
 a2     | Ne         | ( w -- w )        | Soft comment pronoun                                                                   | Pronoun
 a3     | Ni         | ( -- w )          | Equivalent 2st person pronoun                                                          | Pronoun
 a7     | Nii        | ( -- w )          | Associative 2st person pronoun                                                         | Pronoun
-34     | Ku         | ( -- w )          | Symbol (Generic indefinite pronoun)                                                    | Pronoun
 b1     | Ma         | ( w -- w )        | Apply the indicative mood / Express that w is true                                     | Simple word
 b2     | Me         | ( w -- w )        | Apply the commisive mood / Promise w                                                   | Simple word
 b3     | Mi         | ( -- w )          | Equivalent 1st person pronoun                                                          | Pronoun
@@ -83,8 +85,6 @@ b6     | Mee        | ( w -- w )        | Apply the directive mood / Demand w   
 b7     | Mii        | ( -- w )          | Associative 1st person pronoun                                                         | Pronoun
 c2     | Ge         | ( w -- w )        | Apply the volitive mood / Express desire/need of w                                     | Simple word
 c3     | Gi         | ( -- w )          | Neutral response                                                                       | Simple word
-06c3   | Eegi       | ( -- w )          | Positive response                                                                      | Simple word
-07c3   | Iigi       | ( -- w )          | Negative response                                                                      | Simple word 
 cd     | Gv         | ( w -- w )        | Apply the neutral tense                                                                | Simple word
 ce     | Gvv        | ( w1 w2 -- w )    | State that w1 will/has been be fulfilled when w2 is/was fulfilled                      | Simple word
 d1     | Ha         | ( -- w )          | Size                                                                                   | Simple word
