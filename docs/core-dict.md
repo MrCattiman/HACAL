@@ -71,8 +71,8 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 67     | Fii        | ( w1 w2 w3 -- w ) | If w1 then w2, otherwise w3                                                            | Simple word
 71     | La         | ( -- )            | Topic marker of the previous word                                                      | Contextual word
 72     | Le         | ( -- )            | Comment marker of the previous word                                                    | Contextual word
-73     | Li         | ( w -- w )        | Quote                                                                                  | Contextual word
-74     | Lu         | ( w w -- w )      | Quote w as being from w                                                                | Contextual word
+73     | Li         | ( w -- w )        | Quote                                                                                  | Simple word    
+74     | Lu         | ( w1 w2 -- w )    | Quote w1 as being from w2                                                              | Simple word    
 7f     | Lv,        | ( -- n )          | Number above 1                                                                         | Number
 8f     | Jv,        | ( w -- w )        | Negative (Not)                                                                         | Simple word
 91     | Ra         | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
