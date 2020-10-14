@@ -11,3 +11,5 @@ Specifically:
 - The standard HACAL non-core dictionary
 - Miscellaneous HACAL information, such as HACAL text format
 - HACAL example text w/ translations
+
+...or at least it will eventually.
