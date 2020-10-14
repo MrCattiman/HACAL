@@ -17,6 +17,9 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 0ca3       | Undef ( w -- w )                        | Lover (Honorific)
 0ca4       | Undef ( w -- w )                        | Friend (Honorific)
 0ca5       | Undef ( w1 w2 -- w )                    | w1 loves/likes w2
+1644       | Undef ( -- w )                          | Money
+1647       | Undef ( -- w )                          | Debt
+1648       | Undef ( -- w )                          | Income
 3421       | Undef ( -- w )                          | Protrusion
 3429       | Undef ( -- w )                          | Computer
 9521       | Undef ( -- w )                          | Head
