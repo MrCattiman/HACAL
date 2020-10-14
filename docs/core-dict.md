@@ -1,5 +1,6 @@
 Hex    | Latin      | Stack effect      | English definition                                                                     | Class
 ------ | ---------- | ----------------- | -------------------------------------------------------------------------------------- | ----------------------
+05     | Aa         | ( w -- w )        | Generic honorific                                                                      | Simple word
 06     | Ee         | ( -- n )          | 0 / Positive numeric initiator                                                         | Number (Initiator)
 07     | Ii         | ( -- n )          | -0 / Negative numeric initiator                                                        | Number (Initiator)
 11     | Pa         | ( -- n )          | 1                                                                                      | Number
@@ -42,6 +43,7 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 12     | Pe         | ( w1 w2 -- w )    | The w1 property of w2                                                                  | Simple word
 13     | Pi         | ( w1 w2 -- w )    | w1 has the property w2                                                                 | Simple word
 14     | Pu         | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
+1d     | Pv         | ( w x -- w )      | Coins x with the implication of w as an honorific                                      | Contextual word
 1e     | Pvv        | ( w x -- w )      | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
 1f     | Pv,        | ( w x -- w )      | Coin x with the meaning of w                                                           | Contextual word
 31     | Ka         | ( w -- w )        | Apply the interrogative mood / Question the existence/truth of w                       | Simple word
@@ -69,6 +71,8 @@ f7     | Tcii       | ( -- n )          | Negative infinite                     
 67     | Fii        | ( w1 w2 w3 -- w ) | If w1 then w2, otherwise w3                                                            | Simple word
 71     | La         | ( -- )            | Topic marker of the previous word                                                      | Contextual word
 72     | Le         | ( -- )            | Comment marker of the previous word                                                    | Contextual word
+73     | Li         | ( w -- w )        | Quote                                                                                  | Contextual word
+74     | Lu         | ( w w -- w )      | Quote w as being from w                                                                | Contextual word
 7f     | Lv,        | ( -- n )          | Number above 1                                                                         | Number
 8f     | Jv,        | ( w -- w )        | Negative (Not)                                                                         | Simple word
 91     | Ra         | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
@@ -119,5 +123,5 @@ These words are words whose future existence as a core word or as a standard coi
 Hex    | Latin      | Stack effect      | English definition                                                                     | Class
 ------ | ---------- | ----------------- | -------------------------------------------------------------------------------------- | ----------------------
 73     | Li         | ( -- w )          | Undulation (Not necessarily even or predictable)                                       | Simple word
-0f     | V,         | ( -- w )          | A full turn of a circle                                                                | Simple word 
-0e     | Vv         | ( w -- w )        | The middle of w                                                                        | Simple word
+0f     | V,         | ( -- w )          | A full turn                                                                            | Simple word 
+0e     | Xvv        | ( -- w )          | A circle                                                                               | Simple word
