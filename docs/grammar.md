@@ -20,6 +20,13 @@ There are few distinct word classes in HACAL, the letter in parentheses is short
   - Adds context to a conversation, or defines a word to be remembered.
 - Coin
   - A word defined in HACAL using a contextual word, can never be a core word.
+  - (Nick)Name
+    - A reference to something/someone.
+    - Interpreted as a normal (non-name) coin unless consumed by a word or there is no other normal coin with the same value.
+  - Honorific
+    - Tells that the previous word is a name and may imply additional information about them.
+    - Consumes a word.
+    - The generic honorific isn't a coin, and instead a simple word
 - Pronoun
   - A word that references the instance of another word that has been used previously.
 
