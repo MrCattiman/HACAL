@@ -1,7 +1,7 @@
 # HACAL
 ## Human And Computer Auxilliary Language
 
-This repository contains documentation for HACAL, an artlang/engelang meant to be easily parsable by computers.
+This repository contains documentation for HACAL, an engelang meant to be easily parsable by computers.
 
 Specifically:
 - HACAL phonology
