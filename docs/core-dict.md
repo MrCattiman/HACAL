@@ -114,7 +114,7 @@ ef     | Xv,        | ( w -- w )        | Apply the future tense                
 
 # Draft core words
 
-These words are words whose future existence as a core word or as a standard coin are uncertain. For until they can be defined as a coin using any non-draft core words they will remain as a core word.
+These words are words whose future existence as a core word or as a standard coin are uncertain. For until they can be defined as a coin using any non-draft core words they will remain as a core word. Please note that any core word that can be coined using other core words will be removed from the core word list.
 
 Hex    | Latin      | Stack effect      | English definition                                                                     | Class
 ------ | ---------- | ----------------- | -------------------------------------------------------------------------------------- | ----------------------
