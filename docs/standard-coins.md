@@ -21,7 +21,7 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 1647       | Undef ( -- w )                          | Debt
 1648       | Undef ( -- w )                          | Income
 3421       | Undef ( -- w )                          | Protrusion
-3429       | Undef ( -- w )                          | Computer
+3429       | Undef ( -- w )                          | Computer (Electronic device capable of data processing)
 9521       | Undef ( -- w )                          | Head
 95a1       | Undef ( -- w )                          | Leg
 95a2       | Undef ( -- w )                          | Toe
@@ -40,5 +40,9 @@ d1d1       | Undef ( -- w )                          | Happiness
 d1d2       | Undef ( -- w )                          | Neutral emotion
 d1d3       | Undef ( -- w )                          | Sadness
 d1d4       | Undef ( -- w )                          | Anger
+e1e1       | Undef ( -- w )                          | Fuel
+e1e2       | Undef ( -- w )                          | Waste
+e1e3       | Undef ( w1 w2 -- w )                    | w1 consumes w2
+e1e4       | Undef ( w1 w2 -- w )                    | w1 expells w2
 
 Note: "Undef" means that the word has no specific meaning yet, and the stack effect is obviously just the stack effect.
