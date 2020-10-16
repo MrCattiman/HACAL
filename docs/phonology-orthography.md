@@ -15,36 +15,38 @@ Hex | Latin   | Sound
 4   | S       | /s/
 5   | C       | /ʃ/
 6   | F       | /f/
-7   | L       | /l/
+7   | L       | /l/, /ɾ/, or /ɹ/
 8   | J       | /j/
-9   | R       | Rhotic trill, tap, or similar sound, or uvular trill
+9   | R       | /r/ or /ʀ/
 a   | N       | /n/
 b   | M       | /m/
 c   | G       | /ŋ/ or /ɴ/
-d   | H       | /x/ or /h/
-e   | X       | /θ/
-f   | Tc or Z | /ts/ or /tʃ/
+d   | H       | /h/
+e   | W or Q  | /w/ or /q/
+f   | Z       | /ts/ or /tʃ/
 
 Voiced variations of the same consonants, such as /b/ in place of /p/ are also accepted, ones that are already voiced do not have legal unvoiced counterparts.
 
 ## Vowels
 Hex | Latin           | Sound
 --- | --------------- | ------------
-1   | A               | /a/
-2   | E               | /e/
-3   | I               | /i/
-4   | U               | /u/
-5   | Aa              | /aː/
-6   | Ee              | /eː/
-7   | Ii              | /iː/
-8   | Uu              | /uː/
-9   | A, or Ą         | /ã/ or /ẽ/
-a   | U, or Ų         | /ĩ/ or /ũ/
-b   | Aa, or A; or Ąą | /ãː/ or /ẽː/
-c   | Uu, or U; or Ųų | /ĩː/ or /ũː/
-d   | V               | /ø/
-e   | Vv              | /øː/
-f   | V,              | /ø̃/
+1   | A or A-         | /a/
+2   | E or E-         | /e/
+3   | I or I-         | /i/
+4   | U or U-         | /u/
+5   | Ā or Aa         | /aː/
+6   | Ē or Ee         | /eː/
+7   | Ī or Ii         | /iː/
+8   | Ū or Uu         | /uː/
+9   | Ą or Av         | /ã/
+a   | Ę or Ev         | /ẽ/
+b   | Į or Iv         | /ĩ/
+c   | Ų or Uv         | /ũ/
+d   | Ä or Ay         | /aiɣ/
+e   | Ë or Ey         | /eiɣ/
+f   | Ü or Uy         | /uiɣ/
+
+Note that, instead of /ɣ/,  /ħ/ or /x/ can be used.
 
 # Misc.
 Duplicate vowels, or triphthongs should be interrupted by /ʔ/ each time the length of a long vowel is met.
