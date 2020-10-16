@@ -117,13 +117,3 @@ ed     | ( w -- w )        | Apply the present tense                            
 ef     | ( w -- w )        | Apply the future tense                                                                 | Simple word
 
 0x73 and 0x74 are literal quotes without a specified method of communication, the only information that is given from these is something that was said somehow, and in the case of 0x74, the speaker.
-
-# Draft core words
-
-These words are words whose future existence as a core word or as a standard coin are uncertain. For until they can be defined as a coin using any non-draft core words they will remain as a core word. Please note that any core word that can be coined using other core words will be removed from the core word list.
-
-Hex    | Stack effect      | English definition                                                                     | Class
------- | ----------------- | -------------------------------------------------------------------------------------- | ----------------------
-73     | ( -- w )          | Undulation (Not necessarily even or predictable)                                       | Simple word
-0f     | ( -- w )          | A full turn                                                                            | Simple word 
-0e     | ( -- w )          | A circle                                                                               | Simple word
