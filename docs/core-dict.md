@@ -54,10 +54,10 @@ f7     | ( -- n )          | Negative infinite                                  
 44     | ( -- w )          | Number / amount / point                                                                | Simple word
 45     | ( w1 w2 -- w )    | Apply a number to a word / Pluralize                                                   | Simple word
 46     | ( w1 w2 -- w )    | w1 is related to w2                                                                    | Simple word
-47     | ( w -- w )        | Is mostly true/existant                                                                | Simple word
+47     | ( w -- n )        | Facts in w                                                                             | Simple word
 48     | ( w1 w2 -- w )    | w1 exists as w2                                                                        | Simple word
 49     | ( w1 w2 -- w )    | w1 controls w2                                                                         | Simple word
-4a     | ( w1 w2 -- w )    | w1 contains w2                                                                         | Simple word
+4a     | ( w1 w2 -- w )    | w1 has w2                                                                              | Simple word
 4d     | ( w1 w2 -- w )    | w1 is (typological) w2                                                                 | Simple word
 51     | ( -- w )          | Thought / Instance of knowledge                                                        | Simple word
 52     | ( -- w )          | Question                                                                               | Simple word
@@ -71,8 +71,8 @@ f7     | ( -- n )          | Negative infinite                                  
 67     | ( w1 w2 w3 -- w ) | If w1 then w2, otherwise w3                                                            | Simple word
 71     | ( -- )            | Topic marker of the previous word                                                      | Contextual word
 72     | ( -- )            | Comment marker of the previous word                                                    | Contextual word
-73     | ( w -- w )        | Quote                                                                                  | Simple word    
-74     | ( w1 w2 -- w )    | Quote w1 as being from w2                                                              | Simple word    
+73     | ( w -- q )        | Quote                                                                                  | Simple word    
+74     | ( w1 w2 -- q )    | Quote w1 as being from w2                                                              | Simple word    
 7f     | ( -- n )          | Number above 1                                                                         | Number
 8f     | ( w -- w )        | Negative (Not)                                                                         | Simple word
 91     | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
@@ -91,7 +91,7 @@ c2     | ( w -- w )        | Apply the volitive mood / Express desire/need of w 
 c3     | ( -- w )          | Neutral response                                                                       | Simple word
 cd     | ( w -- w )        | Apply the neutral tense                                                                | Simple word
 ce     | ( w1 w2 -- w )    | State that w1 will/has been be fulfilled when w2 is/was fulfilled                      | Simple word
-d1     | ( -- w )          | Size                                                                                   | Simple word
+d1     | ( -- w )          | Part                                                                                   | Simple word
 d2     | ( -- w )          | Shape                                                                                  | Simple word
 d3     | ( -- w )          | Direction / Line                                                                       | Simple word
 d4     | ( -- w )          | Angle                                                                                  | Simple word
@@ -115,5 +115,31 @@ eb     | ( -- w )          | Time                                               
 ec     | ( w -- w )        | Apply the past tense                                                                   | Simple word
 ed     | ( w -- w )        | Apply the present tense                                                                | Simple word
 ef     | ( w -- w )        | Apply the future tense                                                                 | Simple word
+f0     | ( w -- w )        | All w                                                                                  | Simple word
+f1     | ( w n -- w )      | w happens n times                                                                      | Simple word
 
 0x73 and 0x74 are literal quotes without a specified method of communication, the only information that is given from these is something that was said somehow, and in the case of 0x74, the speaker.
+
+(w) is a word, (q) is also a word but is exclusively used to refer to quotes.
+
+(n) is a number.
+
+
+
+Note that most of the current hex values are not guarenteed for the final version of HACAL, though they will be grouped into categories, where each member of a category will be adjecent to another member of the same category.
+
+The generic honorific and static numbers such as 06 and 22 will remain the same, as well as b3, b7, a3, a7, 1d, 1e, and 1f.
+
+They will not take 0x spots that have not already been taken. Members of categories will generally share consonants with eachother and be placed adjacent to eachother as well.
+
+Categories (In lowest to highest order):
+- Other numbers
+- Stack words
+- Contextual words
+- Pronouns
+- Moods
+- Quote words
+- Otherwise uncategorized ( w1 w2 -- w )
+- Otherwise uncategorized ( w -- w )
+- Otherwise uncategorized ( -- w )
+- Everything else
