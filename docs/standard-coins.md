@@ -1,10 +1,11 @@
 # Real-world words
 
-Hex (Word) | Hex (Coin)                              | Intended (approximate) meaning in english
+Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
 01b1       | Undef ( w -- w )                        | Old
 03a4       | Undef ( -- w )                          | Dog
-03b3       | Undef ( w -- w )                        | Young
+03b0       | 03b1 58 7f f1 ec                        | Mature (Has been completed once)
+03b1       | d1 f0 4a                                | Complete
 09         | Undef ( -- w )                          | Hate
 09a1       | Undef ( -- w )                          | Enemy
 09a2       | Undef ( -- w )                          | Compettitor
@@ -21,6 +22,10 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 1644       | Undef ( -- w )                          | Money
 1647       | Undef ( -- w )                          | Debt
 1648       | Undef ( -- w )                          | Income
+21a0       | Undef ( q -- w )                        | Say q
+21a1       | Undef ( q -- w )                        | Ask q
+22a0       | Undef ( -- w )                          | To say
+22a1       | Undef ( -- w )                          | To ask
 3421       | Undef ( -- w )                          | Protrusion
 3429       | Undef ( -- w )                          | Computer (Electronic device capable of data processing)
 9521       | Undef ( -- w )                          | Head
@@ -31,10 +36,10 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 9584       | Undef ( -- w )                          | Joint
 a234       | Undef ( -- w )                          | Cat
 b1a0       | Undef ( -- w )                          | Human
-b1a1       | Undef ( -- w )                          | Adult human
+b1a1       | b1a0 03b0 13                            | Adult human
 b1b1       | Undef ( -- w )                          | Mother
 b2b2       | Undef ( w -- w )                        | Male
-b3a0       | Undef ( -- w )                          | Human child
+b3a0       | b1a0 03b0 8f 13                         | Human child
 b3b3       | Undef ( w -- w )                        | Female
 b331       | Undef ( -- w )                          | Big
 b332       | Undef ( -- w )                          | Small
