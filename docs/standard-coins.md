@@ -17,6 +17,7 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 0ca3       | Undef ( w -- w )                        | Lover (Honorific)
 0ca4       | Undef ( w -- w )                        | Friend (Honorific)
 0ca5       | Undef ( w1 w2 -- w )                    | w1 loves/likes w2
+1171       | Undef ( -- w )                          | Plant
 1644       | Undef ( -- w )                          | Money
 1647       | Undef ( -- w )                          | Debt
 1648       | Undef ( -- w )                          | Income
@@ -35,6 +36,10 @@ b1b1       | Undef ( -- w )                          | Mother
 b2b2       | Undef ( w -- w )                        | Male
 b3a0       | Undef ( -- w )                          | Human child
 b3b3       | Undef ( w -- w )                        | Female
+b331       | Undef ( -- w )                          | Big
+b332       | Undef ( -- w )                          | Small
+b333       | Undef ( w -- w )                        | Is big
+b334       | Undef ( w -- w )                        | Is small
 b4b4       | Undef ( -- w )                          | Father
 d1d1       | Undef ( -- w )                          | Happiness
 d1d2       | Undef ( -- w )                          | Neutral emotion
