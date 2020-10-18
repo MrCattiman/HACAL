@@ -6,7 +6,7 @@ In HACAL, each consonant and vowel is designated a number from 0 to 15. 0 as a c
 - 0 / | No required pronunciation
 	- Optionally /ə/
 
-## Stops
+## Consonants
 Hex | Latin   | Sound
 --- | ------- | ----------------------------------------------------
 1   | P       | /p/
