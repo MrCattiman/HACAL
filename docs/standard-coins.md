@@ -23,7 +23,7 @@ Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) me
 1647       | Undef ( -- w )                          | Debt
 1648       | Undef ( -- w )                          | Income
 21a0       | Undef ( q -- w )                        | Say q
-21a1       | Undef ( q -- w )                        | Ask q
+21f0       | Undef ( -- w )                          | Sound
 22a0       | Undef ( -- w )                          | To say
 22a1       | Undef ( -- w )                          | To ask
 3421       | Undef ( -- w )                          | Protrusion
