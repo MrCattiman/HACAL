@@ -57,6 +57,7 @@ f7     | ( -- n )          | Negative infinite                                  
 3d     | ( w -- w )        | Apply the future tense                                                                 | Simple word
 41     | ( w -- q )        | Quote w                                                                                | Simple word
 42     | ( w1 w2 -- q )    | Quote w1 as being from w2                                                              | Simple word
+43     | ( q w -- w )      | q is encoded in w                                                                      | Simple word
 51     | ( w# -- w )       | w1 and w2 / (If numeric) w#, w#... and w#                                              | Simple (numeric)
 52     | ( w# -- w )       | w1 or w2 / (If numeric) w#, w#... or w#                                                | Simple (numeric)
 53     | ( w1 w2 -- w )    | The w1 property of w2                                                                  | Simple word
@@ -66,14 +67,14 @@ f7     | ( -- n )          | Negative infinite                                  
 58     | ( w1 w2 -- w )    | w1 is the same kind of thing as w2                                                     | Simple word
 59     | ( w1 w2 -- w )    | w1 has w2                                                                              | Simple word
 5a     | ( w1 w2 -- w )    | w1 does w2                                                                             | Simple word
-5b     | ( w1 w2 -- w )    | w1 as/when w2                                                                          | Simple word
-5c     | ( w1 w2 -- w )    | w1 relative to w2                                                                      | Simple word
-5d     | ( w1 w2 -- w )    | w1 from w2                                                                             | Simple word
-5e     | ( w1 w2 -- w )    | w1 towards w2                                                                          | Simple word
-5f     | ( w1 w2 -- w )    | w1 because w2                                                                          | Simple word
-61     | ( w1 w2 -- w )    | w1 creates w2                                                                          | Simple word
-62     | ( w1 w2 -- w )    | w1 changes w2                                                                          | Simple word
-63     | ( w1 w2 -- w )    | w1 via w2                                                                              | Simple word
+5b     | ( w1 w2 -- w )    | w1 relative to w2                                                                      | Simple word
+5c     | ( w1 w2 -- w )    | w1 from w2                                                                             | Simple word
+5d     | ( w1 w2 -- w )    | w1 towards w2                                                                          | Simple word
+5e     | ( w1 w2 -- w )    | w1 because w2                                                                          | Simple word
+5f     | ( w1 w2 -- w )    | w1 creates w2                                                                          | Simple word
+61     | ( w1 w2 -- w )    | w1 changes w2                                                                          | Simple word
+62     | ( w1 w2 -- w )    | w1 via w2                                                                              | Simple word
+63     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
 71     | ( w -- w )        | Negative (Not)                                                                         | Simple word
 72     | ( w -- w )        | All w                                                                                  | Simple word
 81     | ( -- w )          | Number / Amount / Point / Representative value / Symbol                                | Simple word
@@ -83,14 +84,14 @@ f7     | ( -- n )          | Negative infinite                                  
 85     | ( -- w )          | Event / Action                                                                         | Simple word
 86     | ( -- w )          | Cause                                                                                  | Simple word
 87     | ( -- w )          | Effect                                                                                 | Simple word
-88     | ( -- w )          | Part                                                                                   | Simple word
 89     | ( -- w )          | Progress                                                                               | Simple word
 8a     | ( -- w )          | Time                                                                                   | Simple word
 8b     | ( -- w )          | Object                                                                                 | Simple word
 f1     | ( w1 w2 -- w )    | If w1 then w2                                                                          | Simple word
 f2     | ( w1 w2 w3 -- w ) | If w1 then w2 otherwise w3                                                             | Simple word
 f3     | ( w -- n )        | Facts in w                                                                             | Number
-f4     | ( w n --  w )     | w happens n times                                                                      | Simple word
+f4     | ( w n -- w )      | w happens n times                                                                      | Simple word
+f5     | ( w1 w2 -- w )    | w1 when/while w2                                                                       | Simple word
 
 0x73 and 0x74 are literal quotes without a specified method of communication, the only information that is given from these is something that was said somehow, and in the case of 0x74, the speaker.
 
