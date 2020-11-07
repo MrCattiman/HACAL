@@ -87,6 +87,10 @@ f7     | ( -- n )          | Negative infinite                                  
 89     | ( -- w )          | Progress                                                                               | Simple word
 8a     | ( -- w )          | Time                                                                                   | Simple word
 8b     | ( -- w )          | Object                                                                                 | Simple word
+a3     | ( -- w )          | Second person pronoun (equivalent)                                                     | Pronoun
+a7     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
+b3     | ( -- w )          | First person pronoun (equivalent)                                                      | Pronoun
+b7     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
 f1     | ( w1 w2 -- w )    | If w1 then w2                                                                          | Simple word
 f2     | ( w1 w2 w3 -- w ) | If w1 then w2 otherwise w3                                                             | Simple word
 f3     | ( w -- n )        | Facts in w                                                                             | Number
