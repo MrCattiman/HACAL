@@ -27,34 +27,33 @@ f7     | ( -- n )          | Negative infinite                                  
 16     | ( n1 n2 -- n )    | n1 bitwise AND n2                                                                      | Number
 17     | ( n1 n2 -- n )    | n1 bitwise OR n2                                                                       | Number
 18     | ( n1 n2 -- n )    | n1 bitwise NOT n2                                                                      | Number
-19     | ( n1 n2 -- n )    | n1 is less than n2 in value                                                            | Number
-1a     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
-1b     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
-1c     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
-1d     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
-1e     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
-1f     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
-21     | ( w -- w# )       | Duplicate w once or, if numeric, # times                                               | Stack (numeric)
-23     | ( w# -- )         | Forget a word or, if numeric, forget # words                                           | Stack (numeric)
-24     | ( -- )            | Topic marker of the previous word                                                      | Contextual word
-25     | ( -- )            | Comment marker of the previous word                                                    | Contextual word
-26     | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
-27     | ( -- w )          | Hard comment pronoun                                                                   | Pronoun
-28     | ( -- w )          | Soft topic pronoun                                                                     | Pronoun
-29     | ( -- w )          | Soft comment pronoun                                                                   | Pronoun
-2a     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
+19     | ( n1 n2 -- n )    | n1 bit shift by n2 (right if negative, left if positive)                               | Number
+1a     | ( n1 n2 -- n )    | n1 is less than n2 in value                                                            | Number
+1b     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
+1c     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
+1d     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
+1e     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
+1f     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
+21     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
+23     | ( w -- w# )       | Duplicate w once or, if numeric, # times                                               | Stack (numeric)
+24     | ( w# -- )         | Forget a word or, if numeric, forget # words                                           | Stack (numeric)
+25     | ( -- )            | Topic marker of the previous word                                                      | Contextual word
+26     | ( -- )            | Comment marker of the previous word                                                    | Contextual word
+27     | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
+28     | ( -- w )          | Hard comment pronoun                                                                   | Pronoun
+29     | ( -- w )          | Soft topic pronoun                                                                     | Pronoun
+2a     | ( -- w )          | Soft comment pronoun                                                                   | Pronoun
+2b     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
 31     | ( w -- w )        | Question the existence/truth of w (Interrogative mood)                                 | Simple word
-32     | ( w -- w )        | Express that w has been deductively proven to exist/be true (Deductive mood)           | Simple word
-34     | ( w -- w )        | Express that w may exist/be true (Potential mood)                                      | Simple word
-35     | ( w -- w )        | Express that w is true (Indicitive mood)                                               | Simple word
-36     | ( w -- w )        | Promise w (Comissive mood)                                                             | Simple word
-37     | ( w -- w )        | Express that w is evidently existant/true (Evidential mood)                            | Simple word
-38     | ( w -- w )        | Demand w (Directive mood)                                                              | Simple word
-39     | ( w -- w )        | Express desire/need of w (Volitive mood)                                               | Simple word
-3a     | ( w -- w )        | Apply the neutral tense                                                                | Simple word
-3b     | ( w -- w )        | Apply the past tense                                                                   | Simple word
-3c     | ( w -- w )        | Apply the present tense                                                                | Simple word
-3d     | ( w -- w )        | Apply the future tense                                                                 | Simple word
+32     | ( w -- w )        | Express that w may exist/be true (Potential mood)                                      | Simple word
+34     | ( w -- w )        | Express that w is true (Indicitive mood)                                               | Simple word
+35     | ( w -- w )        | Promise w (Comissive mood)                                                             | Simple word
+36     | ( w -- w )        | Demand w (Directive mood)                                                              | Simple word
+37     | ( w -- w )        | Express desire/need of w (Volitive mood)                                               | Simple word
+38     | ( w -- w )        | Apply the neutral tense                                                                | Simple word
+39     | ( w -- w )        | Apply the past tense                                                                   | Simple word
+3a     | ( w -- w )        | Apply the present tense                                                                | Simple word
+3b     | ( w -- w )        | Apply the future tense                                                                 | Simple word
 41     | ( w -- q )        | Quote w                                                                                | Simple word
 42     | ( w1 w2 -- q )    | Quote w1 as being from w2                                                              | Simple word
 43     | ( q w -- w )      | q is encoded in w                                                                      | Simple word
@@ -71,7 +70,7 @@ f7     | ( -- n )          | Negative infinite                                  
 5c     | ( w1 w2 -- w )    | w1 from w2                                                                             | Simple word
 5d     | ( w1 w2 -- w )    | w1 towards w2                                                                          | Simple word
 5e     | ( w1 w2 -- w )    | w1 because w2                                                                          | Simple word
-5f     | ( w1 w2 -- w )    | w1 creates w2                                                                          | Simple word
+5f     | ( w1 w2 -- w )    | w1 creates/causes w2                                                                   | Simple word
 61     | ( w1 w2 -- w )    | w1 changes w2                                                                          | Simple word
 62     | ( w1 w2 -- w )    | w1 via w2                                                                              | Simple word
 63     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
@@ -82,32 +81,26 @@ f7     | ( -- n )          | Negative infinite                                  
 83     | ( -- w )          | Question                                                                               | Simple word
 84     | ( -- w )          | Demand / Wish                                                                          | Simple word
 85     | ( -- w )          | Event / Action                                                                         | Simple word
-86     | ( -- w )          | Cause                                                                                  | Simple word
-87     | ( -- w )          | Effect                                                                                 | Simple word
-89     | ( -- w )          | Progress                                                                               | Simple word
-8a     | ( -- w )          | Time                                                                                   | Simple word
-8b     | ( -- w )          | Object                                                                                 | Simple word
+86     | ( -- w )          | Time                                                                                   | Simple word
+87     | ( -- w )          | Object / Thing                                                                         | Simple word
 a3     | ( -- w )          | Second person pronoun (equivalent)                                                     | Pronoun
-a7     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
+a8     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
 b3     | ( -- w )          | First person pronoun (equivalent)                                                      | Pronoun
-b7     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
+b8     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
 f1     | ( w1 w2 -- w )    | If w1 then w2                                                                          | Simple word
 f2     | ( w1 w2 w3 -- w ) | If w1 then w2 otherwise w3                                                             | Simple word
 f3     | ( w -- n )        | Facts in w                                                                             | Number
 f4     | ( w n -- w )      | w happens n times                                                                      | Simple word
-f5     | ( w1 w2 -- w )    | w1 when/while w2                                                                       | Simple word
-
-0x73 and 0x74 are literal quotes without a specified method of communication, the only information that is given from these is something that was said somehow, and in the case of 0x74, the speaker.
 
 (w) is a word, (q) is also a word but is exclusively used to refer to quotes.
 
-(n) is a number.
+(n) is a number, numbers can also be used as words.
 
 
 
 Note that most of the current hex values are not guarenteed for the final version of HACAL, though they will be grouped into categories, where each member of a category will be adjecent to another member of the same category.
 
-The generic honorific and static numbers such as 06 and 22 will remain the same, as well as b3, b7, a3, a7, 1d, 1e, and 1f.
+The generic honorific and static numbers such as 06 and 22 will remain the same, as well as b3, b8, a3, a8, 1d, 1e, and 1f.
 
 They will not take 0x spots that have not already been taken. Members of categories will generally share consonants with eachother and be placed adjacent to eachother as well.
 

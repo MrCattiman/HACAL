@@ -30,23 +30,21 @@ Voiced variations of the same consonants, such as /b/ in place of /p/ are also a
 ## Vowels
 Hex | Latin           | Sound
 --- | --------------- | ------------
-1   | A or A-         | /a/
-2   | E or E-         | /e/
-3   | I or I-         | /i/
-4   | U or U-         | /u/
-5   | Ā or Aa         | /aː/
-6   | Ē or Ee         | /eː/
-7   | Ī or Ii         | /iː/
-8   | Ū or Uu         | /uː/
-9   | Ą or Av         | /ã/
-a   | Ę or Ev         | /ẽ/
-b   | Į or Iv         | /ĩ/
-c   | Ų or Uv         | /ũ/
-d   | Ä or Ay         | /aiɣ/
-e   | Ë or Ey         | /eiɣ/
-f   | Ü or Uy         | /uiɣ/
-
-Note that, instead of /ɣ/,  /ħ/ or /x/ can be used.
+1   | A or A.         | /a/
+2   | E or E.         | /e/
+3   | I or I.         | /i/
+4   | U or U.         | /u/
+5   | O or O.         | /o/
+6   | Ā or Aa         | /aː/
+7   | Ē or Ee         | /eː/
+8   | Ī or Ii         | /iː/
+9   | Ū or Uu         | /uː/
+a   | Ō or Oo         | /oː/
+b   | Ą or Av         | /ã/
+c   | Ę or Ev         | /ẽ/
+d   | Į or Iv         | /ĩ/
+e   | Ų or Uv         | /ũ/
+f   | Ǫ or Ov         | /õ/
 
 # Misc.
 Duplicate vowels, or triphthongs should be interrupted by /ʔ/ each time the length of a long vowel is met.
