@@ -35,15 +35,9 @@ f7     | ( -- n )          | Negative infinite                                  
 1e     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
 1f     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
 21     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
-23     | ( w -- w# )       | Duplicate w once or, if numeric, # times                                               | Stack (numeric)
-24     | ( w# -- )         | Forget a word or, if numeric, forget # words                                           | Stack (numeric)
-25     | ( -- )            | Topic marker of the previous word                                                      | Contextual word
-26     | ( -- )            | Comment marker of the previous word                                                    | Contextual word
-27     | ( -- w )          | Hard topic pronoun                                                                     | Pronoun
-28     | ( -- w )          | Hard comment pronoun                                                                   | Pronoun
-29     | ( -- w )          | Soft topic pronoun                                                                     | Pronoun
-2a     | ( -- w )          | Soft comment pronoun                                                                   | Pronoun
-2b     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
+23     | ( -- w )          | Context registry setter                                                                | Numeric pronoun
+24     | ( -- w )          | Context registry pronoun (caller)                                                      | Numeric pronoun
+25     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
 31     | ( w -- w )        | Question the existence/truth of w (Interrogative mood)                                 | Simple word
 32     | ( w -- w )        | Express that w may exist/be true (Potential mood)                                      | Simple word
 34     | ( w -- w )        | Express that w is true (Indicitive mood)                                               | Simple word
