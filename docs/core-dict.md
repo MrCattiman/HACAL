@@ -32,18 +32,15 @@ f7     | ( -- n )          | Negative infinite                                  
 1b     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
 1c     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
 1d     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
-1e     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
-1f     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
-21     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
-23     | ( -- w )          | Context registry setter                                                                | Numeric pronoun
-24     | ( -- w )          | Context registry pronoun (caller)                                                      | Numeric pronoun
-25     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
-31     | ( w -- w )        | Question the existence/truth of w (Interrogative mood)                                 | Simple word
-32     | ( w -- w )        | Express that w may exist/be true (Potential mood)                                      | Simple word
-34     | ( w -- w )        | Express that w is true (Indicitive mood)                                               | Simple word
-35     | ( w -- w )        | Promise w (Comissive mood)                                                             | Simple word
-36     | ( w -- w )        | Demand w (Directive mood)                                                              | Simple word
-37     | ( w -- w )        | Express desire/need of w (Volitive mood)                                               | Simple word
+21     | ( w -- )          | Context registry setter                                                                | Contextual numeric
+23     | ( -- w )          | Context registry pronoun (caller)                                                      | Numeric pronoun
+24     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
+31     | ( w -- w )        | Interrogative mood                                                                     | Simple word
+32     | ( w -- w )        | Potential mood                                                                         | Simple word
+34     | ( w -- w )        | Indicative mood                                                                        | Simple word
+35     | ( w -- w )        | Comissive mood                                                                         | Simple word
+36     | ( w -- w )        | Directive mood                                                                         | Simple word
+37     | ( w -- w )        | Volitive mood                                                                          | Simple word
 38     | ( w -- w )        | Apply the neutral tense                                                                | Simple word
 39     | ( w -- w )        | Apply the past tense                                                                   | Simple word
 3a     | ( w -- w )        | Apply the present tense                                                                | Simple word
@@ -52,22 +49,18 @@ f7     | ( -- n )          | Negative infinite                                  
 42     | ( w1 w2 -- q )    | Quote w1 as being from w2                                                              | Simple word
 43     | ( q w -- w )      | q is encoded in w                                                                      | Simple word
 51     | ( w# -- w )       | w1 and w2 / (If numeric) w#, w#... and w#                                              | Simple (numeric)
-52     | ( w# -- w )       | w1 or w2 / (If numeric) w#, w#... or w#                                                | Simple (numeric)
-53     | ( w1 w2 -- w )    | The w1 property of w2                                                                  | Simple word
-54     | ( w1 w2 -- w )    | w1 has the property w2                                                                 | Simple word
-56     | ( w1 w2 -- w )    | w1 is the same as w2                                                                   | Simple word
-57     | ( w1 w2 -- w )    | w1 is related to w2                                                                    | Simple word
-58     | ( w1 w2 -- w )    | w1 is the same kind of thing as w2                                                     | Simple word
-59     | ( w1 w2 -- w )    | w1 has w2                                                                              | Simple word
-5a     | ( w1 w2 -- w )    | w1 does w2                                                                             | Simple word
-5b     | ( w1 w2 -- w )    | w1 relative to w2                                                                      | Simple word
-5c     | ( w1 w2 -- w )    | w1 from w2                                                                             | Simple word
-5d     | ( w1 w2 -- w )    | w1 towards w2                                                                          | Simple word
-5e     | ( w1 w2 -- w )    | w1 because w2                                                                          | Simple word
-5f     | ( w1 w2 -- w )    | w1 creates/causes w2                                                                   | Simple word
-61     | ( w1 w2 -- w )    | w1 changes w2                                                                          | Simple word
-62     | ( w1 w2 -- w )    | w1 via w2                                                                              | Simple word
-63     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
+52     | ( w# -- w )       | w1 or w2 / (If numeric) w#, w#... or w# (exclusive)                                    | Simple (numeric)
+53     | ( w# -- w )       | w1 or w2 / (If numeric) w#, w#... or w# (inclusive)                                    | Simple (numeric)
+54     | ( w1 w2 -- w )    | w1 of w2  (genitive)                                                                   | Simple word
+55     | ( w1 w2 -- w )    | w2 with w1 (reverse genitive)                                                          | Simple word
+56     | ( w1 w2 -- w )    | w1 is w2                                                                               | Simple word
+57     | ( w1 w2 -- w )    | w1 executes (performs) w2                                                              | Simple word
+58     | ( w1 w2 -- w )    | w1 from w2                                                                             | Simple word
+59     | ( w1 w2 -- w )    | w1 towards w2                                                                          | Simple word
+5a     | ( w1 w2 -- w )    | w1 because w2                                                                          | Simple word
+5b     | ( w1 w2 -- w )    | w1 makes/causes w2                                                                     | Simple word
+5c     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
+5d     | ( w1 w2 -- w )    | w1 before w2 (Temporal)                                                                | Simple word
 71     | ( w -- w )        | Negative (Not)                                                                         | Simple word
 72     | ( w -- w )        | All w                                                                                  | Simple word
 81     | ( -- w )          | Number / Amount / Point / Representative value / Symbol                                | Simple word
@@ -81,6 +74,9 @@ a3     | ( -- w )          | Second person pronoun (equivalent)                 
 a8     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
 b3     | ( -- w )          | First person pronoun (equivalent)                                                      | Pronoun
 b8     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
+e1     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
+e2     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
+e3     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
 f1     | ( w1 w2 -- w )    | If w1 then w2                                                                          | Simple word
 f2     | ( w1 w2 w3 -- w ) | If w1 then w2 otherwise w3                                                             | Simple word
 f3     | ( w -- n )        | Facts in w                                                                             | Number
@@ -100,13 +96,12 @@ They will not take 0x spots that have not already been taken. Members of categor
 
 Categories (In lowest to highest order):
 - Other numbers
-- Stack words
-- Contextual words
-- Pronouns
+- Pronouns and context registry
 - Moods / tenses
 - Quote words
 - Otherwise uncategorized ( w1 w2 -- w )
 - Otherwise uncategorized ( w -- w )
 - Otherwise uncategorized ( -- w )
 - Everything else
-- Responses and logic (As late as possible)
+- coiners (at 0xeX)
+- Responses and logic (At 0xfX)
