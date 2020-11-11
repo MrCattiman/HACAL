@@ -32,8 +32,8 @@ f7     | ( -- n )          | Negative infinite                                  
 1b     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
 1c     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
 1d     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
-21     | ( w1 w2 -- )      | Context registry (of w2) setter                                                        | Contextual numeric
-23     | ( w -- w )        | Context registry (of w2) pronoun (caller)                                              | Numeric pronoun
+21     | ( w1 w2 -- w1 )   | Context registry (of w2) setter                                                        | Contextual numeric
+23     | ( r -- w )        | Context registry (of w2) pronoun (caller)                                              | Numeric pronoun
 24     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
 31     | ( w -- w )        | Interrogative mood                                                                     | Simple word
 32     | ( w -- w )        | Potential mood                                                                         | Simple word
@@ -83,6 +83,8 @@ f3     | ( w -- n )        | Facts in w                                         
 f4     | ( w n -- w )      | w happens n times                                                                      | Simple word
 
 (w) is a word, (q) is also a word but is exclusively used to refer to quotes.
+
+(r) is the most significant word, which is found by going back into speech until a word is created from no arguments.
 
 (n) is a number, numbers can also be used as words.
 
