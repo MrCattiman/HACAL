@@ -32,8 +32,8 @@ f7     | ( -- n )          | Negative infinite                                  
 1b     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
 1c     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
 1d     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
-21     | ( w1 w2 -- w1 )   | Context registry (of w2) setter                                                        | Contextual numeric
-23     | ( r -- w )        | Context registry (of w2) pronoun (caller)                                              | Numeric pronoun
+21     | ( w1 r -- w1 )    | Context registry setter                                                                | Contextual numeric
+23     | ( r -- w )        | Context registry pronoun (caller)                                                      | Numeric pronoun
 24     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
 31     | ( w -- w )        | Interrogative mood                                                                     | Simple word
 32     | ( w -- w )        | Potential mood                                                                         | Simple word
