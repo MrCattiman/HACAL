@@ -32,7 +32,7 @@ f7     | ( -- n )          | Negative infinite                                  
 1b     | ( n1 n2 -- n )    | n1 is equal to n2 in value                                                             | Number
 1c     | ( n1 n2 -- n )    | n1 is greater than n2 in value                                                         | Number
 1d     | ( n1 n2 -- n )    | n1 through n2                                                                          | Number
-21     | ( w1 r -- w1 )    | Context registry setter                                                                | Contextual numeric
+21     | ( w1 r (n) -- w1 )| Context registry setter                                                                | Contextual numeric
 23     | ( r -- w )        | Context registry pronoun (caller)                                                      | Numeric pronoun
 24     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
 31     | ( w -- w )        | Interrogative mood                                                                     | Simple word
@@ -82,11 +82,11 @@ f2     | ( w1 w2 w3 -- w ) | If w1 then w2 otherwise w3                         
 f3     | ( w -- n )        | Facts in w                                                                             | Number
 f4     | ( w n -- w )      | w happens n times                                                                      | Simple word
 
-(w) is a word, (q) is also a word but is exclusively used to refer to quotes.
+(w) is a phrase, (q) is also a phrase but is exclusively used to refer to quotes.
 
-(r) is the most significant word, which is found by going back into speech until a word is created from no arguments.
+(r) is the significant noun (A word that pushes meaning onto the stack without taking any parameters), which is also the noun that is being referenced by the pronoun. In the case that there are two or more of the same noun, an additional number is required, which should equal the amount of words that should be skipped over from the beginning of the phrase to arrive at the word that is referenced.
 
-(n) is a number, numbers can also be used as words.
+(n) is a number, numbers can also be used as phrasess.
 
 
 
