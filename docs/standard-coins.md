@@ -6,13 +6,13 @@ Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) me
 03a4       | Undef ( -- w )                          | Dog
 03b0       | Undef ( w -- w )                        | Mature
 03b1       | Undef ( w -- w )                        | Complete
-0bb1       | Undef ( -- w )                          | Hate
+0bb1       | Undef ( -- w )                          | Hate/Dislike
 0bc1       | Undef ( -- w )                          | Enemy
 0bc2       | Undef ( -- w )                          | Compettitor
 0bc3       | Undef ( w -- w )                        | Enemy (Honorific)
 0bc4       | Undef ( w -- w )                        | Compettitor (Honorific)
-0bc5       | Undef ( w1 w2 -- w )                    | w1 hates/is competing against w2
-0db1       | Undef ( -- w )                          | Love
+0bc5       | Undef ( w1 w2 -- w )                    | w1 hates/dislikes/is competing against w2
+0db1       | Undef ( -- w )                          | Love/Like
 0dc1       | Undef ( -- w )                          | Lover
 0dc2       | Undef ( -- w )                          | Friend
 0dc3       | Undef ( w -- w )                        | Lover (Honorific)
@@ -54,5 +54,11 @@ e1e1       | Undef ( -- w )                          | Fuel
 e1e2       | Undef ( -- w )                          | Waste
 e1e3       | Undef ( w1 w2 -- w )                    | w1 consumes w2
 e1e4       | Undef ( w1 w2 -- w )                    | w1 expells w2
+
+## Languages (Starts with [d1])
+
+Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) meaning in english
+---------- | --------------------------------------- | --------------------------------------------------------------------
+d136       | Undef ( -- w )                          | HACAL
 
 Note: "Undef" means that the word has no specific meaning yet, and the stack effect is obviously just the stack effect.
