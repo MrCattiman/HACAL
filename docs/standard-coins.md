@@ -28,6 +28,10 @@ Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) me
 22a1       | Undef ( -- w )                          | To ask
 3421       | Undef ( -- w )                          | Protrusion
 342a       | Undef ( -- w )                          | Computer (Electronic device capable of data processing)
+4111       | Undef ( -- w )                          | Fast
+4112       | Undef ( -- w )                          | Slow
+4211       | Undef ( w -- w )                        | w moves
+8511       | Undef ( w1 w2 -- w )                    | w1 sees w2
 9521       | Undef ( -- w )                          | Head
 95a1       | Undef ( -- w )                          | Leg
 95a2       | Undef ( -- w )                          | Toe
@@ -38,6 +42,8 @@ a235       | Undef ( -- w )                          | Cat
 b1a0       | Undef ( -- w )                          | Human
 b1a1       | Undef ( -- w )                          | Adult human
 b1b1       | Undef ( -- w )                          | Mother
+b941       | Undef ( -- w )                          | Sound
+b943       | Undef ( -- w )                          | Music
 b2b2       | Undef ( w -- w )                        | Male
 b3a0       | Undef ( -- w )                          | Human child
 b3b3       | Undef ( w -- w )                        | Female
@@ -50,6 +56,7 @@ d1d1       | Undef ( -- w )                          | Happiness
 d1d2       | Undef ( -- w )                          | Neutral emotion
 d1d3       | Undef ( -- w )                          | Sadness
 d1d4       | Undef ( -- w )                          | Anger
+d1df       | Undef ( w1 w2 -- w )                    | w1 is expressing emotion/feeling w2
 e1e1       | Undef ( -- w )                          | Fuel
 e1e2       | Undef ( -- w )                          | Waste
 e1e3       | Undef ( w1 w2 -- w )                    | w1 consumes w2
@@ -57,8 +64,9 @@ e1e4       | Undef ( w1 w2 -- w )                    | w1 expells w2
 
 ## Languages (Starts with [d1])
 
-Hex (Word) | Hex (Coin, with spaces in place of 00)  | Intended (approximate) meaning in english
+Hex (Word) | Hex (Name, with spaces in place of 00)  | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
 d136       | Undef ( -- w )                          | HACAL
+d13a       | Undef ( -- w )                          | English
 
 Note: "Undef" means that the word has no specific meaning yet, and the stack effect is obviously just the stack effect.
