@@ -84,7 +84,7 @@ f4     | ( w n -- w )      | w happens n times                                  
 
 (w) is a phrase, (q) is also a phrase but is exclusively used to refer to quotes.
 
-(r) is the significant noun (A word that pushes meaning onto the stack without taking any parameters), which is also the noun that is being referenced by the pronoun. In the case that there are two or more of the same noun, an additional number is required, which should equal the amount of words that should be skipped over from the beginning of the phrase to arrive at the word that is referenced.
+(r) is the significant noun (A word that pushes meaning onto the stack without taking any parameters), which is also the noun that is being referenced by the pronoun. In the case that there are two or more of the same noun, an additional number is required, which should equal the amount of words that should be skipped over from the beginning of the phrase to arrive at the word that is referenced. If no number is given, then the first instance of the significant noun is used. The significant noun may be more than one word.
 
 (n) is a number, numbers can also be used as phrasess.
 
