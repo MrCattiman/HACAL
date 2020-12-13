@@ -86,7 +86,8 @@ f4     | ( w n -- w )      | w happens n times                                  
 
 Hex    | Stack effect      | English definition                                                                     | Class
 ------ | ----------------- | -------------------------------------------------------------------------------------- | --------------
-df     | ( w# -- )         | Consume # words, only usable in definitions and meant for developing dictionaries      | Simple numeric
+de     | ( -- w# )         | Push # nonce words to the stack, only usable in definitions                            | Simple numeric
+df     | ( w# -- )         | Consume # words, only usable in definitions                                            | Simple numeric
 
 (w) is a phrase, (q) is also a phrase but is exclusively used to refer to quotes.
 
