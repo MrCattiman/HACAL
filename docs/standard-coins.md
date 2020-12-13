@@ -62,9 +62,9 @@ e1e2       | de11                                    | Waste
 e1e3       | df22 de11                               | w1 consumes w2
 e1e4       | df22 de11                               | w1 expells w2
 
-## Languages (Starts with [d1])
+## Languages (Starts with [ff])
 
 Hex (Word) | Hex (Name, with spaces in place of 00)  | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
-d136       | de11                                    | HACAL
-d13a       | de11                                    | English
+ff36       | de11                                    | HACAL
+ff3a       | de11                                    | English
