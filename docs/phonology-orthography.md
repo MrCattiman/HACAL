@@ -1,5 +1,7 @@
 # Phonology/Orthography
 
+Before reading this, please note that despite the fact that I have written a phonology for HACAL, you are free to pronounce anything in any way that is expedient to you and the people you speak with using this language.
+
 ## Hex format, phonotactics, and nulls
 In HACAL, each consonant and vowel is designated a number from 0 to 15. 0 as a consonant or vowel (A null consonant/vowel) is not pronounced, the null vowel may optionally be pronounced as a mid vowel, though. When representing HACAL in hexadecimal, a vowel always follows a consonant, so 0xdddd would be pronounced as /høhø/. HACAL is also primarilly a syllabic language, the only consonants that can precede another or not have a following vowel are nasals and /l/.
 - 0 - | No required pronunciation
