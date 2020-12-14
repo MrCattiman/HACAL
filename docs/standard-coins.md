@@ -13,5 +13,7 @@
 
 Hex (Word) | Hex                                     | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
+1121       | DE11                                    | Animal
+1122       | DE11                                    | Plant
 FF36       | DE11                                    | HACAL
 FF3A       | DE11                                    | English
