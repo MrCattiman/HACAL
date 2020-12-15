@@ -10,7 +10,7 @@
 * 4X... : Machines
 * FF... : Languages
 
-# Real-world words
+# Words
 
 Hex (Word) | Hex (Coin)                              | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
