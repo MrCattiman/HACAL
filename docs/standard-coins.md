@@ -4,9 +4,10 @@
 * 1X... : Animals, plants, and similar things
   * 1F... : Organs
 * 2X... : Basic philosophical and religious things
-  * Includes machines and basic political concepts
+  * Includes scientific and political concepts
 * 3X... : Emotional and sensual words
 * 4X... : Familial traits, not specific to living things
+* 5X... : Machines
 * FF... : Languages
 
 # Real-world words
