@@ -11,9 +11,18 @@
 
 # Real-world words
 
-Hex (Word) | Hex                                     | Intended (approximate) meaning in english
+Hex (Word) | Hex (Coin)                              | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
 1121       | DE11                                    | Animal
 1122       | DE11                                    | Plant
-FF36       | DE11                                    | HACAL
-FF3A       | DE11                                    | English
+1123       | DE11                                    | Microbe
+1124       | DE11                                    | Virus (Biological)
+1211       | DE11                                    | Human
+1212       | DE11                                    | Dog
+1213       | DE11                                    | Cat
+1214       | DE11                                    | Bird
+1311       | DE11                                    | Grass
+1312       | DE11                                    | Bush
+1313       | DE11                                    | Tree
+FF01       | DE11                                    | HACAL
+FF02A9     | DE11                                    | English
