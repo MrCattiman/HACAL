@@ -4,10 +4,9 @@
 * 1X... : Animals, plants, and similar things
   * 1F... : Organs
 * 2X... : Basic philosophical and religious things
-  * Includes scientific and political concepts
+  * Includes scientific, mathematical, political concepts, and machines
   * 2A... : Familial words, not necessarily for living things
 * 3X... : Emotional and sensual words
-* 4X... : Machines
 * FF... : Languages
 
 # Words
@@ -15,14 +14,12 @@
 Hex (Word) | Hex (Coin)                              | Intended (approximate) meaning in english
 ---------- | --------------------------------------- | --------------------------------------------------------------------
 0111       | DF22 DE11                               | (x) makes contact with (y)
+1111       | DE11                                    | Organism
 1121       | DE11                                    | Animal
 1122       | DE11                                    | Plant
 1123       | DE11                                    | Microbe
 1124       | DE11                                    | Virus (Biological)
 1211       | DE11                                    | Human
-1212       | DE11                                    | Dog
-1213       | DE11                                    | Cat
-1214       | DE11                                    | Bird
 1311       | DE11                                    | Grass
 1312       | DE11                                    | Bush
 1313       | DE11                                    | Tree
@@ -35,6 +32,11 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 3112       | DE11                                    | Happiness (Or any other positive emotion)
 3113       | DE11                                    | Sadness (Or any other negative emotion)
 3114       | DE11                                    | Anticipation (Or any other anticipatory emotion, such as excitement)
+3121       | DE11                                    | Dominion (As power)
+3122       | DE11                                    | Desire
+3123       | DF11 DE11                               | Good (Not as a trait) as according to (x)
+3124       | DF11 DE11                               | Bad (Not as a trait) as according to (x)
+3131       | DE11                                    | Physical strength
 3211       | DE11                                    | (A) Tactile feeling
 3212       | DE11                                    | (A) Tactile sensor
 3213       | DE11                                    | (A) Tactile response
