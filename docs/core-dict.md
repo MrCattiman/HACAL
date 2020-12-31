@@ -35,16 +35,12 @@ f7     | ( -- n )          | Negative infinite                                  
 21     | ( w1 r (n) -- w1 )| Context registry setter                                                                | Contextual numeric
 23     | ( r -- w )        | Context registry pronoun (caller)                                                      | Numeric pronoun
 24     | ( -- w )          | Indefinite pronoun                                                                     | Pronoun
-31     | ( w -- w )        | Interrogative mood                                                                     | Simple word
-32     | ( w -- w )        | Potential mood                                                                         | Simple word
-34     | ( w -- w )        | Indicative mood                                                                        | Simple word
-35     | ( w -- w )        | Comissive mood                                                                         | Simple word
-36     | ( w -- w )        | Directive mood                                                                         | Simple word
-37     | ( w -- w )        | Volitive mood                                                                          | Simple word
-38     | ( w -- w )        | Apply the neutral tense                                                                | Simple word
-39     | ( w -- w )        | Apply the past tense                                                                   | Simple word
-3a     | ( w -- w )        | Apply the present tense                                                                | Simple word
-3b     | ( w -- w )        | Apply the future tense                                                                 | Simple word
+31     | ( w -- w )        | w is a statement                                                                       | Simple word
+32     | ( w -- w )        | w is a question                                                                        | Simple word
+33     | ( w -- w )        | w has a neutral tense                                                                  | Simple word
+34     | ( w -- w )        | w has the past tense                                                                   | Simple word
+35     | ( w -- w )        | w has the present tense                                                                | Simple word
+36     | ( w -- w )        | w has the future tense                                                                 | Simple word
 41     | ( w -- q )        | Quote w                                                                                | Simple word
 42     | ( w1 w2 -- q )    | Quote w1 as being from w2                                                              | Simple word
 43     | ( q w -- w )      | q is encoded in w                                                                      | Simple word
@@ -61,12 +57,14 @@ f7     | ( -- n )          | Negative infinite                                  
 5b     | ( w1 w2 -- w )    | w1 makes/causes w2                                                                     | Simple word
 5c     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
 5d     | ( w1 w2 -- w )    | w1 before w2 (Temporal)                                                                | Simple word
+5e     | ( w1 w2 -- w )    | w2 wants or needs w1                                                                   | Simple word
 71     | ( w -- w )        | Negative (Not)                                                                         | Simple word
 72     | ( w -- w )        | All w                                                                                  | Simple word
+73     | ( w -- w )        | w changes or moves                                                                     | Simple word
 81     | ( -- w )          | Number / Amount / Point / Representative value / Symbol                                | Simple word
 82     | ( -- w )          | Thought                                                                                | Simple word
 83     | ( -- w )          | Question                                                                               | Simple word
-84     | ( -- w )          | Demand / Wish                                                                          | Simple word
+84     | ( -- w )          | Demand / Wish / Command                                                                | Simple word
 85     | ( -- w )          | Event / Action                                                                         | Simple word
 86     | ( -- w )          | Time                                                                                   | Simple word
 87     | ( -- w )          | Object / Thing                                                                         | Simple word
