@@ -58,6 +58,7 @@ f7     | ( -- n )          | Negative infinite                                  
 5c     | ( w1 w2 -- w )    | w1 then w2 (Temporal)                                                                  | Simple word
 5d     | ( w1 w2 -- w )    | w1 before w2 (Temporal)                                                                | Simple word
 5e     | ( w1 w2 -- w )    | w2 wants or needs w1                                                                   | Simple word
+5f     | ( w1 w2 -- w )    | between w1 and w2                                                                      | Simple word
 71     | ( w -- w )        | Negative (Not)                                                                         | Simple word
 72     | ( w -- w )        | All w                                                                                  | Simple word
 73     | ( w -- w )        | w changes or moves                                                                     | Simple word
@@ -68,10 +69,10 @@ f7     | ( -- n )          | Negative infinite                                  
 85     | ( -- w )          | Event / Action                                                                         | Simple word
 86     | ( -- w )          | Time                                                                                   | Simple word
 87     | ( -- w )          | Object / Thing                                                                         | Simple word
-a3     | ( -- w )          | Second person pronoun (equivalent)                                                     | Pronoun
-a8     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
-b3     | ( -- w )          | First person pronoun (equivalent)                                                      | Pronoun
-b8     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
+a1     | ( -- w )          | Second person pronoun (equivalent)                                                     | Pronoun
+a2     | ( -- w )          | Second person pronoun (associative)                                                    | Pronoun
+a3     | ( -- w )          | First person pronoun (equivalent)                                                      | Pronoun
+a4     | ( -- w )          | First person pronoun (associative)                                                     | Pronoun
 e1     | ( w x -- )        | Coins x as an honorific with the implication of w                                      | Contextual word
 e2     | ( w x -- )        | Coin a reference to w as x ((Nick)name someone/something)                              | Contextual word
 e3     | ( w x -- )        | Coin x with the meaning of w                                                           | Contextual word
