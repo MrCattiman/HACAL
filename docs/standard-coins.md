@@ -5,7 +5,6 @@
   * 1F... : Organs
 * 2X... : Basic philosophical and religious things
   * Includes scientific, mathematical, political concepts, and machines
-  * 2A... : Familial words, not necessarily for living things
 * 3X... : Emotional and sensual words
 * FF... : Languages
 
@@ -24,18 +23,14 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 1312       | DE11                                    | Bush
 1313       | DE11                                    | Tree
 2111       | DE11                                    | Existence
-2A11       | DE11                                    | Relative/Family member, anything related to something's creation
-2A12       | DE11                                    | Something created by something else
-2A21       | DE11                                    | Something that has inspired the creation of something else
-2A22       | DF22 DE11                               | (x) was created in inspiration of (y)
+2112       | DE11                                    | Sentience
+2113       | DE11                                    | Ability to cause a physical change in something; power
 3111       | DE11                                    | (An) Emotion
-3112       | DE11                                    | Happiness (Or any other positive emotion)
-3113       | DE11                                    | Sadness (Or any other negative emotion)
-3114       | DE11                                    | Anticipation (Or any other anticipatory emotion, such as excitement)
-3121       | DE11                                    | Dominion (As power)
-3122       | DE11                                    | Desire
-3123       | DF11 DE11                               | Good (Not as a trait) as according to (x)
-3124       | DF11 DE11                               | Bad (Not as a trait) as according to (x)
+3112       | DE11                                    | Positive (emotion)
+3113       | DE11                                    | Negative (emotion)
+3114       | DE11                                    | Anticipatory (emotion)
+3121       | DE11                                    | Political or social power
+3122       | DF11 DE11                               | Interest of (x)
 3131       | DE11                                    | Physical strength
 3211       | DE11                                    | (A) Tactile feeling
 3212       | DE11                                    | (A) Tactile sensor
@@ -53,4 +48,4 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 3414       | DE11                                    | (A) Positive visual-causal response
 3415       | DE11                                    | (A) Negative visual-causal response
 FF01       | DE11                                    | HACAL
-FF02A9     | DE11                                    | English
+FF02       | DE11                                    | English
