@@ -24,7 +24,7 @@ Hex (Word) | Hex (Coin)                              | Intended (approximate) me
 1313       | DE11                                    | Tree
 2111       | DE11                                    | Existence
 2112       | DE11                                    | Sentience
-2113       | DE11                                    | Ability to cause a physical change in something; power
+2113       | DF11 DE11                               | Ability to cause a physical change in (x); power over
 3111       | DE11                                    | (An) Emotion
 3112       | DE11                                    | Positive (emotion)
 3113       | DE11                                    | Negative (emotion)
